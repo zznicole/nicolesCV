@@ -1,0 +1,26 @@
+body {
+    background-color:#384b77
+}
+.sticky {
+    color:aqua;
+    background-color: midnightblue;
+    background-size: auto;
+    padding:15px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+
+h1 {
+    text-align:center;
+    position:relative; 
+    margin-top:100px;
+}
+
+nav {
+    background-color:whitesmoke;
+}
+.passes {
+    background-color:aqua;
+}
