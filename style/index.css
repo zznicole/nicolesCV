@@ -1,10 +1,10 @@
 body {
-    background-color:#001a33;
+    background-color:#051320;
 }
 
 .sticky {
     color:aqua;
-    background-color: midnightblue;
+    background-color: rgba(5, 109, 112,0.3);
     background-size: auto;
     
     padding:15px;
@@ -15,6 +15,7 @@ body {
 }
 
 h1 {
+    font-family:Arial, Helvetica, sans-serif;
     color:aqua;
     text-align:center;
     position:relative; 
@@ -23,34 +24,44 @@ h1 {
 
 nav {
     text-align:center;
-    
 }
 
 main {
     background-image: url('../img/images.jpg');
     background-repeat:no-repeat ;
-    background-size:100%;
-    
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.profile {
+    color:white;
+    text-shadow:1px 1px 1px rgba(0, 26, 51, 0.8);
+}
+
+.background {
+    background-color:rgba(0, 26, 51, 0.8);
 }
 
 .pass1 {
-    border:1px solid orange;
-    border-radius:15px;
+    background-color:#05132083;
+    border:1px solid  rgba(5, 109, 112,0.3);
+    border-radius:25px;
     padding-top:20px;
     position:relative;
     margin:20px;
     top:50px;
     left:100px;
     width:550px;
-    height:300px;
-    color:orange;
+    height:600px;
+    color:lightgrey;
     font-size:larger;
     text-align:center;
 }
 
 .pass2 {
-    border:1px solid orange;
-    border-radius:15px;
+    background-color:#05132083;
+    border:1px solid  rgba(5, 109, 112,0.3);
+    border-radius:25px;
     padding-top:20px;
     position:relative;
     margin:20px;
@@ -58,31 +69,31 @@ main {
     left:650px;
     width:550px;
     height:300px;
-    color:orange;
+    color:lightgrey;
     font-size:larger;
     text-align:center;
 }
 
 .pass3 {
-    border:1px solid orange;
-    border-radius:15px;
+    background-color:#05132083;
+    border:1px solid  rgba(5, 109, 112,0.3);
+    border-radius:25px;
     padding-top:20px;
     position:relative;
-    margin:20px;
-    top:50px;
+    bottom:50px;
     left:100px;
     width:550px;
     height:300px;
-    color:orange;
+    color:lightgrey;
     font-size:larger;
     text-align:center;
 }
 
 footer {
-    position:margin;
-    bottom:250px;
+    padding:15px;
+    position:relative;
+    bottom:0px;
     color:aqua;
     text-align:center;
     font-size:20px;
-    
-}
+} 
